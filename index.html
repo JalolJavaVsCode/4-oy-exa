@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register ------ Jaloliddin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="shortcut icon"
+        href="https://png.pngtree.com/png-clipart/20221218/original/pngtree-transparent-register-now-button-png-image_8769361.png"
+        type="image/x-icon">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="site-header__inner">
+                <ul class="site-header__list">
+                    <li class="site-header__item">
+                        <a class="site-header__link" href="./index.html"><img class="site-header__img"
+                                src="./images/Group 187.svg" alt="header__logo"></a>
+                    </li>
+                    <li class="site-header__item">
+                        <a class="site-header__register__link" href="#">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="site-main">
+        <section class="hero">
+            <div class="container">
+                <div class="main__inner">
+                    <h1 class="title">Welcome</h1>
+                    <div class="description__wrapper">
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam duis vitae
+                            curabitur amet, fermentum lorem.
+                        </p>
+                    </div>
+                    <div class="inputs__wrapper">
+                        <form id="form" class="form__names">
+                            <div class="inputs__subwrapper">
+                                <span id="input" class="first__second__names span__first">First name <span
+                                        class="after__names">*</span></span>
+                                <input class="inputs__names" type="text" placeholder="Your name">
+                            </div>
+                            <div class="inputs__subwrapper">
+                                <span class="first__second__names">Last name <span class="after__names">*</span></span>
+                                <input class="inputs__names" type="text" placeholder="Your last name">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="email__wrapper">
+                        <form class="form__email">
+                            <div class="emails__subwrapper">
+                                <span class="first__second__names">E-mail <span class="after__names">*</span></span>
+                                <input class="inputs__emails email__inp" type="email" placeholder="yourmail@gmail.com">
+                                <a href="#"><img class="email__svg" src="./images/email.svg" alt="email__svg"></a>
+                            </div>
+                            <div class="emails__subwrapper emails__subwrappers">
+                                <span class="first__second__names">Password <span class="after__names">*</span></span>
+                                <input class="inputs__emails two__input__email" id="password" type="password"
+                                    placeholder="Password">
+                                <a href="#"><img class="email__svg" src="./images/Eye.svg" id="pass-icon"
+                                        onclick="pass()" alt="email__svg"></a>
+                            </div>
+                            <div class="emails__subwrapper emails__subwrappers">
+                                <span class="first__second__names">Repeat Password <span
+                                        class="after__names">*</span></span>
+                                <input class="inputs__emails two__input__email" id="passwordtwo" type="password"
+                                    placeholder="Repeat Password">
+                                <a href="#"><img class="email__svg" src="./images/Eye.svg" id="pass-icontwo"
+                                        onclick="passed()" alt="email__svg"></a>
+                            </div>
+                            <div class="emails__subwrapper emails__subwrappers">
+                                <span class="first__second__names">Gender <span class="after__names">*</span></span>
+                                <select class="inputs__emails two__input__email select__input"></select>
+                                <!-- <input class="inputs__emails two__input__email" type="s" placeholder="Gender"> -->
+                            </div>
+                            <div class="emails__subwrapper emails__subwrappers">
+                                <span class="first__second__names">Birthday <span class="after__names">*</span></span>
+                                <input class="inputs__emails two__input__email birthday__input" type="date"
+                                    placeholder="Birthday">
+                            </div>
+                        </form>
+                    </div>
+                    <input class="checkbox__input" type="checkbox">
+                    <div class="desc__wrapper__lorem">
+                        <p class="desc__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span
+                                class="strong__span">Gravida eget ultricies</span> pharetra scelerisque duis cursus.
+                        </p>
+                    </div>
+                </div>
+                <a class="Enter__link" href="#">Enter</a>
+            </div>
+            </div>
+        </section>
+        <section class="second__hero">
+            <div class="container">
+                <div class="second__hero__inner">
+                    <h2 class="title__second">Get a project quote</h2>
+                    <div class="second__hero__desc__inner">
+                        <p class="second__hero__desc">Please fill the form below to receive a quote for your project.
+                            Feel free to add as much detail as needed.
+                        </p>
+                    </div>
+                    <div class="second__hero__wrapper">
+                        <img class="step__by__step__register" src="./images/Group 37318.svg"
+                            alt="step__by__step__register">
+                        <hr class="second__hero__hr">
+                        <h3 class="second__hero__subtitle">Contact details</h3>
+                        <p class="second__hero__subdescription">Lorem ipsum dolor sit amet consectetur adipisc.</p>
+                        <form class="second__hero__form">
+                            <div>
+                                <div>
+                                    <div class="span__wrappers">
+                                        <span class="second__hero__span">Name</span>
+                                    </div>
+                                    <input class="second__hero__input" type="text" placeholder="John Carter">
+                                    <img class="name__photo" src="./images/Group 41.svg" alt="name__photo">
+                                </div>
+                                <div>
+                                    <div class="span__wrappers spans__wrappers">
+                                        <span class="second__hero__span">Phone Number</span>
+                                    </div>
+                                    <input class="second__hero__input" type="text" placeholder="(123) 456 - 7890">
+                                    <img class="name__photo" src="./images/Group (1).svg" alt="name__photo">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <div class="span__wrappers">
+                                        <span class="second__hero__span">Email</span>
+                                    </div>
+                                    <input class="second__hero__input" type="text" placeholder="Email address">
+                                    <img class="name__photo" src="./images/Group.svg" alt="name__photo">
+                                </div>
+                                <div>
+                                    <div class="span__wrappers span__margin">
+                                        <span class="second__hero__span">Company</span>
+                                    </div>
+                                    <input class="second__hero__input" type="text" placeholder="Company name">
+                                    <img class="name__photo" src="./images/Group 3984.svg" alt="name__photo">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div>
+                        <a class="naext__step__link" href="#">Next step</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="third__section">
+            <div class="container">
+                <div class="third__section__inner">
+                    <img class="step__by__step__register" src="./images/Group 37318.svg" alt="step__by__step__register">
+                    <hr class="second__hero__hr">
+                    <h3 class="third__section__title">Our services</h3>
+                    <p class="third__section__desc">Please select which service you are interested in.</p>
+                    <ul>
+                        <li>
+                            <form class="form_in">
+                                <div>
+                                    <div>
+                                        <label class="label_in">
+                                            <input class="input_in" type="checkbox">
+                                            <h3 class="span_input">Development</h3>
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <label class="label_in">
+                                            <input class="input_in" type="checkbox">
+                                            <h3 class="span_input">Marketing</h3>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <label class="label_in">
+                                            <input class="input_in" type="checkbox">
+                                            <h3 class="span_input inputss">Web Design</h3>
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <label class="label_in">
+                                            <input class="input_in" type="checkbox">
+                                            <h3 class="span_input inputss">Other</h3>
+                                        </label>
+                                    </div>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex__wrapper">
+                    <div class="wrapper__linkss">
+                        <a class="naext__step__sublinks" href="#">Previous step</a>
+                    </div>
+                    <div class="wrapper__linkss">
+                        <a class="naext__step__sublink" href="#">Next step</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fourth__section">
+            <div class="container">
+                <div class="fourth__section__inner">
+                    <img class="step__by__step__register" src="./images/Group 37318.svg" alt="step__by__step__register">
+                    <hr class="second__hero__hr">
+                    <h3 class="fourth__section__title">What’s your project budget?</h3>
+                    <p class="fourth__section__desc">Please select the project budget range you have in mind.</p>
+                    <form class="form_in">
+                        <div class="inputss__wrapperss">
+                            <label class="label_inthree">
+                                <input class="input_inthree" type="radio">
+                                <h3 class="span_inputthree">$5.000 - $10.000</h3>
+                            </label>
+                            <label class="label_inthree">
+                                <input class="input_inthree" type="radio">
+                                <h3 class="span_inputthree">$10.000 - $20.000</h3>
+                            </label>
+                        </div>
+                        <div class="inputss__wrapperss wrap">
+                            <label class="label_inthree">
+                                <input class="input_inthree" type="radio">
+                                <h3 class="span_inputthree">$20.000 - $50.000</h3>
+                            </label>
+                            <label class="label_inthree">
+                                <input class="input_inthree" type="radio">
+                                <h3 class="span_inputthree">$50.000 +</h3>
+                            </label>
+                        </div>
+                    </form>
+                    <div class="fourth__section__wrapper__links">
+                        <div class="fourth__section__wrapper__linksss">
+                            <a class="fourth__sectionlinks" href="#">Previous step</a>
+                        </div>
+                        <div class="fourth__section__wrapper__linksss">
+                            <a class="fourth__sectionlinkss" href="#">Next step</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="passed__register">
+            <div class="container">
+                <div class="passed__register__inner">
+                    <img class="step__by__step__register Register__imges" src="./images/Group 37318.svg"
+                        alt="step__by__step__register">
+                    <hr class="second__hero__hr">
+                    <img class="checked__poassed__img" src="./images/Group 37301.png" alt="checked__poassed__img">
+                    <div class="all__wrapprs">
+                        <h3 class="passed__register__title">Submit your quote request</h3>
+                        <div class="passed__register__desc__wrappers">
+                            <p class="passed__register__desc">Please review all the information you previously typed in
+                                the past steps, and if all is okay, submit your message to receive a project quote in 24
+                                - 48 hours.</p>
+                        </div>
+                        <a class="passed__register__link" href="#">Preview</a>
+                        <div>
+                            <a class="passed__register__sublink" href="#">Previous step</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="project__description">
+            <div class="container">
+                <div class="project__description__inner">
+                    <h3 class="project__description__title">Project description</h3>
+                    <div class="wrapper__all__desc">
+                        <div class="passed__register__wrapperss">
+                            <h4 class="passed__register__answer titless tit">NAME:</h4>
+                            <span class="passed__register__answer"></span>
+                        </div>
+                        <div class="passed__register__wrapperss">
+                            <h4 class="passed__register__answer titless ti">EMAIL:</h4>
+                            <span class="passed__register__answer"></span>
+                        </div>
+                        <div class="passed__register__wrapperss">
+                            <h4 class="passed__register__answer titless ti">CONTACT:</h4>
+                            <span class="passed__register__answer"></span>
+                        </div>
+                        <div class="passed__register__wrapperss">
+                            <h4 class="passed__register__answer titless ti">COMPANY:</h4>
+                            <span class="passed__register__answer"></span>
+                        </div>
+                        <div class="passed__register__wrapperss">
+                            <h4 class="passed__register__answer titless ti">SERVICE:</h4>
+                            <span class="passed__register__answer"></span>
+                        </div>
+                        <div class="passed__register__wrapperss">
+                            <h4 class="passed__register__answer titless ti">BUDGET: </h4>
+                            <span class="passed__register__answer"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__wrapper">
+                    <a href="#"><img src="./images/Group 187.svg" alt="footer__logo"></a>
+                    <blockquote class="blockquote__footer">Copyright © 2021 BRIX Templates | All Rights Reserved
+                    </blockquote>
+                </div>
+                <div class="wrapper__link__input">
+                    <div>
+                        <input class="footer__input" type="email" placeholder="Enter your email">
+                    </div>
+                    <div>
+                        <a class="Subscribe__link__footer" href="#">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
